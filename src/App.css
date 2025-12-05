@@ -1,0 +1,84 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(180deg, #0a0a12 0%, #12121f 50%, #0a0a12 100%);
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.app-header h1 {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+  background: linear-gradient(90deg, #e94560, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-header p {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
+  background: rgba(26, 26, 46, 0.5);
+  border-radius: 12px;
+  border: 1px solid #2a2a4a;
+}
+
+.redux-flow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flow-step {
+  background: #1a1a2e;
+  color: #888;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-family: 'Courier New', monospace;
+  border: 1px solid #2a2a4a;
+}
+
+.flow-step.dispatch {
+  color: #00d4ff;
+  border-color: #00d4ff;
+}
+
+.flow-step.reducer {
+  color: #7b2cbf;
+  border-color: #7b2cbf;
+}
+
+.flow-step.store {
+  color: #e94560;
+  border-color: #e94560;
+}
+
+.flow-arrow {
+  color: #444;
+  font-size: 1.2rem;
+}
