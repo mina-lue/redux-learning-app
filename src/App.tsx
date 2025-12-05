@@ -1,5 +1,6 @@
 import { Counter } from './features/counter/Counter'
 import './App.css'
+import { Todo } from './features/todo/todo'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       
       <main className="app-main">
         <Counter />
+        <Todo />
       </main>
 
       <footer className="app-footer">
